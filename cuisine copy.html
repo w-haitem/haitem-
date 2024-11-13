@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasbah & Kubo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-image: url('12j.pg'); /* Placeholder for custom wallpaper */
+            background-size: cover;
+            color: rgb(240, 240, 240);
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-left: 20px;
+        }
+        nav {
+            display: flex;
+            gap: 15px;
+            margin-right: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: rgb(241, 0, 0);
+            font-weight: bold;
+        }
+        #menu {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+            background-color: rgb(226, 226, 226);
+        }
+        .menu-section {
+            margin-bottom: 40px;
+            width: 45%;
+        }
+        .menu-section h3 {
+            color: #d21e1e;
+            font-size: 1.8em;
+            border-bottom: 2px solid #d21e1e;
+            margin-bottom: 10px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .menu-item img {
+            width: 190px;
+            height: 200px;
+            border-radius: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+        .menu-img {
+            border-radius: 10px;
+        }
+        .logo-image {
+            width: 100%;
+            height: 150px; /* Height for the logo banner */
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Logo banner -->
+        <img src="ma.png" alt="Kasbah & Kubo Logo" class="logo-image"> <!-- Placeholder for your logo -->
+        
+       
+    </header>
+   
+    <section id="menu">
+        <!-- Appetizers -->
+        <div class="menu-section">
+            <h3>Appetizers</h3>
+            <div class="menu-item">
+                <div>
+                    <strong>Briouats</strong> (Moroccan) - $5.00<br>
+                    Crisp pastry filled with spiced meat or cheese.
+                </div>
+                <img src="https://www.maspatule.com/blog/wp-content/uploads/2022/03/P1180953-1440x1081.jpg " alt="Briouats" class="menu-img">
+            </div>
+            <div class="menu-item">
+                <div>
+                    <strong>Zaalouk</strong> (Moroccan) - $6.00<br>
+                    A rich and flavorful eggplant and tomato dip.
+                </div>
+                <img src="https://www.thedeliciouscrescent.com/wp-content/uploads/2021/09/Zaalouk-1.jpg" alt="Zaalouk" class="menu-img">
+            </div>
+            <div class="menu-item">
+                <div>
+                    <strong>Lumpiang Shanghai</strong> (Philippine) - $8.00<br>
+                    Spring rolls with giniling, vegetables, and garlic.
+                </div>
+                <img src="https://thefoodietakesflight.com/wp-content/uploads/2020/10/Lumpiang-Shanghai.jpg" alt="Lumpiang Shanghai" class="menu-img">
+            </div>
+            <div class="menu-item">
+                <div>
+                    <strong>Okoy</strong> (Philippine) - $6.00<br>
+                    Deep-fried fritters with shrimp and vegetables.
+                </div>
+                <img src="https://www.felicemadethis.com/wp-content/uploads/2023/04/DSC02672.jpg" alt="Okoy" class="menu-img">
+            </div>
+        </div>
+
+        <!-- Main Courses -->
+        <div class="menu-section">
+            <h3>Main Courses</h3>
+            <div class="menu-item">
+                <div>
+                    <strong>Tagine</strong> (Moroccan) - $15.00<br>
+                    Slow-cooked lamb or chicken with vegetables and spices.
+                </div>
+                <img src="https://www.bladi.net/img/local/cache-vignettes/L800xH500/arton7251-e9fe2.jpg?1701529628" alt="Tagine" class="menu-img">
+            </div>
+            <div class="menu-item">
+                <div>
+                    <strong>Couscous</strong> (Moroccan) - $14.00<br>
+                    Steamed semolina with vegetables and meat.
+                </div>
+                <img src="https://www.authenticworldfood.com/data/r3/00000153-00000327.jpg" alt="Couscous" class="menu-img">
+            </div>
+            <div class="menu-item">
+                <div>
+                    <strong>Sisig</strong> (Philippine) - $12.00<br>
+                    Pork jowl, ears, and belly with calamansi, onions, and chili.
+                </div>
+                <img src="https://bitingintolife.net/wp-content/uploads/2022/11/Tofu-Sisig-15-1.jpg" alt="Sisig" class="menu-img">
+            </div>
+            <div class="menu-item">
+                <div>
+                    <strong>Adobong Pusit</strong> (Philippine) - $14.00<br>
+                    Squid simmered with onions, garlic, and soy sauce.
+                </div>
+                <img src="https://www.allrecipes.com/thmb/1QESBKwKulwMxdVcqZDYWbP0KxA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/6296135-adobong-pusit-squid-adobo-Bret-Michael-Urmeneta-4x3-1-4e6eb0e248bb4f7cb8261c12b3e2e45f.jpg" alt="Adobong Pusit" class="menu-img">
+            </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="menu-section">
+            <h3>Desserts</h3>
+            <div class="menu-item">
+                <div>
+                    <strong>M’hanncha</strong> (Moroccan) - $6.00<br>
+                    Sweet almond pastry in a coiled snake shape.
+                </div>
+                <img src="https://uneirresistibleenviedesucre.com/wp-content/uploads/2013/02/ob_9f02f192955f43129b2b176d8336f285_cimg2300.jpg" alt="M’hanncha" class="menu-img">
+            </div>
+            <div class="menu-item">
+                <div>
+                    <strong>Chebakia</strong> (Moroccan) - $5.00<br>
+                    Fried dough coated with honey and sesame seeds.
+                </div>
+                <img src="https://merecipes.com/wp-content/uploads/2022/12/1/360_F_441173193_mBPRGl8YRmtJxMwHNxmsHmAg2tjaop0V.jpg" alt="Chebakia" class="menu-img">
+            </div>
+            <div class="menu-item">
+                <div>
+                    <strong>Halo-halo</strong> (Philippine) - $7.00<br>
+                    Shaved ice with condensed milk and assorted ingredients.
+                </div>
+                <img src="https://assets.bonappetit.com/photos/60e46c6701084801b06de2a3/1:1/w_2240,c_limit/Halo-Halo-Recipe-2021.jpg" alt="Halo-halo" class="menu-img">
+            </div>
+            <div class="menu-item">
+                <div>
+                    <strong>Ginataang Bilo-Bilo</strong> (Philippine) - $10.00<br>
+                    Rice balls, bananas, and sweet potatoes in coconut milk.
+                </div>
+                <img src="https://i0.wp.com/itsforkandspoon.com/wp-content/uploads/2020/10/aDSC_1067.jpg" alt="Ginataang Bilo-Bilo" class="menu-img">
+            </div>
+        </div>
+
+        <!-- Beverages -->
+        <div class="menu-section">
+            <h3>Beverages</h3>
+            <div class="menu-item">
+                <div>
+                    <strong>Mint Tea</strong> (Moroccan) - $3.50<br>
+                    Traditional Moroccan tea with fresh mint leaves.
+                </div>
+                <img src="https://www.schooloftea.com/wp-content/uploads/Moroccan-Mint-Tea-scaled.jpg" alt="Mint Tea" class="menu-img">
+            </div>
+            <div class="menu-item">
+                <div>
+                    <strong>Sago’t Gulaman</strong> (Philippine) - $4.00<br>
+                    Drink made with tapioca pearls and gelatin.
+                </div>
+                <img src="https://i1.wp.com/www.foodwithmae.com/wp-content/uploads/2021/07/sagotgulamandrinkFoodwithMae-1-e1628688120251.jpg" alt="Sago’t Gulaman" class="menu-img">
+            </div>
+            <div class="menu-item">
+                <div>
+                    <strong>Buko Pandan</strong> (Philippine) - $5.00<br>
+                    Coconut shreds with pandan leaves and coconut milk.
+                </div>
+                <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1456,h_1092/k%2FPhoto%2FRecipes%2F2023-01-buko-pandan%2Fbuko-pandan_002.jpg" alt="Buko Pandan" class="menu-img">
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact & Location</h2>
+        <p>Address: 123 Cozy Lane, San Francisco, CA 94102</p>
+        <p>Phone Number: (415) 555-1234</p>
+        <p>Operating Hours: Mon - Sun: 11:00 AM - 10:00 PM</p>
+        <div class="contact-info">
+            <h3>We'd love to hear from you!</h3>
+            <p>Email: contact@kasbahkubo.com</p>
+        </div>
+    </footer>
+</body>
+</html>
